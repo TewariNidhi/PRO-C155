@@ -30,7 +30,7 @@ AFRAME.registerComponent("flying-birds", {
     birdEl.setAttribute("scale", { x: 500, y: 500, z: 500 });
 
     //set the gLTF model attribute
-    birdEl.setAttribute("gltf-model", "./assets/models/flying_bird/scene.gltf");
+    birdEl.setAttribute("gltf-model", "assets/models/flying_bird/scene.gltf");
 
     //set animation mixer of models with animation
     birdEl.setAttribute("animation-mixer", {});
